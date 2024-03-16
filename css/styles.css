@@ -8,3 +8,22 @@ body {
 h1 {
   color: #333;
 }
+#countries-list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: center;
+}
+.country{
+  /*position: absolute;*/
+  width: 10em;
+}
+.country img{
+  width: 30%;
+}
+.hide{
+  /*position: relative;*/
+}
+.hide :nth-child(3),.hide :nth-child(4),.hide :nth-child(5),.hide :nth-child(6){
+  display:none;
+}
